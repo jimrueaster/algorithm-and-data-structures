@@ -3,6 +3,7 @@
 
 
 from linkedlist.node import OneDirectNode
+from linkedlist.one_direction_linked_list import print_one_d_linked_list
 
 n0 = OneDirectNode()
 n1 = OneDirectNode('aaaa')
@@ -27,15 +28,6 @@ def insert_after(head, index, new_node):
         if None is node.next():
             break
         i += 1
-        node = node.next()
-
-
-def print_one_d_linked_list(head):
-    node = head
-    while True:
-        print(node.content())
-        if None is node.next():
-            break
         node = node.next()
 
 
