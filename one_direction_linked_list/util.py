@@ -22,7 +22,7 @@ def generate_linked_list():
 
 
 def print_one_d_linked_list(head):
-    node = head
+    node = head.next()
     while True:
         print(node.content())
         if None is node.next():
