@@ -28,7 +28,3 @@ def print_one_d_linked_list(head):
         if None is node.next():
             break
         node = node.next()
-
-
-head = generate_linked_list()
-print_one_d_linked_list(head)
