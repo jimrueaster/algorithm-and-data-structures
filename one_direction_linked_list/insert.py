@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 
 
-from linkedlist.node import OneDirectNode
-from linkedlist.one_direction_linked_list import print_one_d_linked_list
+from one_direction_linked_list.node import OneDirectNode
+from one_direction_linked_list.one_direction_linked_list import print_one_d_linked_list
 
 n0 = OneDirectNode()
 n1 = OneDirectNode('aaaa')

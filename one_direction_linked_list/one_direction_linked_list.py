@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-from linkedlist.node import OneDirectNode
+from one_direction_linked_list.node import OneDirectNode
 
 n1 = OneDirectNode('aaaa')
 n2 = OneDirectNode('bbbb')
