@@ -3,16 +3,7 @@
 
 
 from one_direction_linked_list.node import OneDirectNode
-from one_direction_linked_list.one_direction_linked_list import print_one_d_linked_list
-
-n0 = OneDirectNode()
-n1 = OneDirectNode('aaaa')
-n2 = OneDirectNode('bbbb')
-n3 = OneDirectNode('cccc')
-
-n0.set_next(n1)
-n1.set_next(n2)
-n2.set_next(n3)
+from one_direction_linked_list.util import print_one_d_linked_list
 
 new = OneDirectNode('new')
 
