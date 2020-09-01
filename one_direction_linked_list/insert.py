@@ -5,7 +5,7 @@
 from one_direction_linked_list.node import *
 
 
-def insert_after(head, index, new_node):
+def insert_to(head, index, new_node):
     i = 0
     node = head
     while True:
@@ -22,6 +22,6 @@ def insert_after(head, index, new_node):
 head = generate_linked_list()
 
 new = OneDirectNode('new')
-insert_after(head, 1, new)
+insert_to(head, 1, new)
 
 print_one_d_linked_list(head)
