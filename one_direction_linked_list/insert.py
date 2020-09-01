@@ -2,10 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-from one_direction_linked_list.node import OneDirectNode
-from one_direction_linked_list.util import print_one_d_linked_list
-
-new = OneDirectNode('new')
+from one_direction_linked_list.util import *
 
 
 def insert_after(head, index, new_node):
@@ -22,5 +19,9 @@ def insert_after(head, index, new_node):
         node = node.next()
 
 
-insert_after(n0, 3, new)
-print_one_d_linked_list(n0)
+head = generate_linked_list()
+
+new = OneDirectNode('new')
+insert_after(head, 1, new)
+
+print_one_d_linked_list(head)
