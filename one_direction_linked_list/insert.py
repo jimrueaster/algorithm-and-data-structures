@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-from one_direction_linked_list.util import *
+from one_direction_linked_list.node import *
 
 
 def insert_after(head, index, new_node):
